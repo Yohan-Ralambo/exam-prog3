@@ -4,14 +4,51 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f206bd8b-9245-4d6d-8cbd-d2eb96578e44" name="Changes" comment="exam" />
+    <list default="true" id="f206bd8b-9245-4d6d-8cbd-d2eb96578e44" name="Changes" comment="exam">
+      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ExamApplication/IngredientAgainApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/DishController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/IngredientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/CategoryEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Dish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/DishIngredient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/DishOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/DishTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Ingredient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/MovementTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/PaymentStatusEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Sale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/StockMovement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/StockValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Unit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exception/BadRequestException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/igagain/IgAgainApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/DishRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/IngredientRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/SequenceHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/DishService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/IngredientService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/IgAgainApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prog3-ingredient" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/prog3-ingredient" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="MavenImportPreferences">
@@ -35,9 +72,11 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.ExamApplication.executor": "Run",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Msi/IdeaProjects/exam/prog3-ingredient/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -47,20 +86,41 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Msi\IdeaProjects\exam\prog3-ingredient\src\main\resources" />
+      <recent name="C:\Users\Msi\IdeaProjects\exam\prog3-ingredient\src\main\java" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Msi\IdeaProjects\exam" />
       <recent name="C:\Users\Msi\IdeaProjects\exam\prog3-ingredient\src\test\java" />
       <recent name="C:\Users\Msi\IdeaProjects\exam\prog3-ingredient\src\main\java" />
-      <recent name="C:\Users\Msi\IdeaProjects\exam" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.IgAgainApplication">
     <configuration name="ExamApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="exam" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.exam.ExamApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IgAgainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ig-again" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="igagain.IgAgainApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="igagain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.IgAgainApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -78,7 +138,7 @@
       <option name="presentableId" value="Default" />
       <updated>1774941572124</updated>
       <workItem from="1774941573480" duration="1455000" />
-      <workItem from="1774943631159" duration="1084000" />
+      <workItem from="1774943631159" duration="3560000" />
     </task>
     <task id="LOCAL-00001" summary="exam">
       <option name="closed" value="true" />
